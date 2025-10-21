@@ -17,16 +17,19 @@ package ListasPractica;
  */
 
 public class ListaCircular {
-    private Nodo inicio;
+    private Nodo inicio; // Nodo de inicio
 
+    // Clase interna Nodo
     private class Nodo {
-        String dato;
-        Nodo siguiente;
+        private String dato; // Valor del nodo
+        private Nodo siguiente; // Referencia al siguiente nodo
 
         Nodo(String dato) {
             this.dato = dato;
         }
     }
+
+    // Método para crear la lista con 4 nodos
     public void crear() {
         Nodo rojo = new Nodo("Rojo");
         Nodo verde = new Nodo("Verde");
@@ -41,6 +44,7 @@ public class ListaCircular {
         inicio = rojo;
     }
 
+    // Método para insertar un nodo después de uno específico
     public void insertar(String nuevoDato, String despuesDe) {
         Nodo actual = inicio;
 
@@ -54,6 +58,8 @@ public class ListaCircular {
             actual = actual.siguiente;
         } while (actual != inicio);
     }
+
+    // Método para eliminar un nodo específico
     public void eliminar(String dato) {
         Nodo actual = inicio;
 
@@ -66,6 +72,7 @@ public class ListaCircular {
         } while (actual != inicio);
     }
 
+    // Método para mostrar los nodos de la lista
     public void mostrar() {
         Nodo actual = inicio;
 
@@ -76,6 +83,8 @@ public class ListaCircular {
 
         System.out.println("(vuelve a " + inicio.dato + ")");
     }
+
+    // Método principal para probar la lista
     public static void main(String[] args) {
         ListaCircular lista = new ListaCircular();
         lista.crear();
@@ -87,8 +96,8 @@ public class ListaCircular {
         lista.eliminar("Verde");
         lista.mostrar();
     }
-    
 }
+    
 ```
 ### Lista Simple
 ```java
@@ -104,17 +113,19 @@ package ListasPractica;
 
   
 public class ListaSimple {
-    private Nodo inicio;
+    private Nodo inicio; // Nodo de inicio
 
+    // Clase interna Nodo
     private class Nodo {
-        String dato;
-        Nodo siguiente;
+        private String dato; // Valor del nodo
+        private Nodo siguiente; // Referencia al siguiente nodo
 
         Nodo(String dato) {
             this.dato = dato;
         }
     }
 
+    // Método para crear la lista con 4 nodos
     public void crear() {
         Nodo ana = new Nodo("Ana");
         Nodo benjamin = new Nodo("Benjamín");
@@ -128,6 +139,7 @@ public class ListaSimple {
         inicio = ana;
     }
 
+    // Método para insertar un nodo después de otro
     public void insertar(String nuevoDato, String despuesDe) {
         Nodo actual = inicio;
         while (actual != null) {
@@ -141,6 +153,7 @@ public class ListaSimple {
         }
     }
 
+    // Método para eliminar un nodo con cierto valor
     public void eliminar(String dato) {
         if (inicio == null) return;
 
@@ -159,6 +172,7 @@ public class ListaSimple {
         }
     }
 
+    // Método para mostrar los nodos de la lista
     public void mostrar() {
         Nodo actual = inicio;
         while (actual != null) {
@@ -168,6 +182,7 @@ public class ListaSimple {
         System.out.println("NULL");
     }
 
+    // Método principal para probar la lista
     public static void main(String[] args) {
         ListaSimple lista = new ListaSimple();
         lista.crear();
@@ -180,29 +195,19 @@ public class ListaSimple {
 ```
 ### Lista Doble
 ```java
+  private Nodo inicio; // Nodo de inicio
 
-package ListasPractica;
-
-/**Marisol Rincón Solís 
- * Este es un proyecto de repaso donde s muestra como funciona una lista doble
- * resolviendo la actividad que nos realizo el profesor el dia viernes 
- *13/Octubre/2025
- * @author DELL
- */
-
-
-public class ListaDoble {
-    private Nodo inicio;
-
+    // Clase interna Nodo
     private class Nodo {
-        String dato;
-        Nodo siguiente, anterior;
+        private String dato; // Valor del nodo
+        private Nodo siguiente, anterior; // Referencias al siguiente y anterior nodo
 
         Nodo(String dato) {
             this.dato = dato;
         }
     }
 
+    // Método para crear la lista con 4 nodos
     public void crear() {
         Nodo prog = new Nodo("Programación");
         Nodo mate = new Nodo("Matemáticas");
@@ -221,6 +226,7 @@ public class ListaDoble {
         inicio = prog;
     }
 
+    // Método para insertar un nodo al inicio
     public void insertarInicio(String dato) {
         Nodo nuevo = new Nodo(dato);
         nuevo.siguiente = inicio;
@@ -230,6 +236,7 @@ public class ListaDoble {
         inicio = nuevo;
     }
 
+    // Método para eliminar un nodo con cierto valor
     public void eliminar(String dato) {
         Nodo actual = inicio;
 
@@ -248,6 +255,8 @@ public class ListaDoble {
             actual = actual.siguiente;
         }
     }
+
+    // Método para mostrar los nodos de la lista
     public void mostrar() {
         Nodo actual = inicio;
         while (actual != null) {
@@ -257,6 +266,7 @@ public class ListaDoble {
         System.out.println("NULL");
     }
 
+    // Método principal para probar la lista
     public static void main(String[] args) {
         ListaDoble lista = new ListaDoble();
         lista.crear();
