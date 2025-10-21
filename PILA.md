@@ -21,13 +21,6 @@ public interface IStack<T> {
     
 }
 
-
-
-
-
-
-
-
 ```
 
 ### Segundo Código realizado 
