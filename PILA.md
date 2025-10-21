@@ -2,6 +2,37 @@
 ## Marisol Rincón Solís 
 
 
+### Primer código realizado 
+```java
+package Pila;
+
+/**
+ * Ejercicio guiado 
+ * Una pila es una colección ordenada de elementos a los cuales sólo se puede 
+ * acceder por un único lugar o extremo de la pila.
+ *14 de Octubre de 2025
+ * @author Marisol Rincón Solís
+ */
+public interface IStack<T> {
+   void push(T element);
+    T  pop();
+    T peek();
+   boolean isEmpty();
+    
+}
+
+
+
+
+
+
+
+
+```
+
+### Segundo Código realizado 
+#### Actividad Especificación de la Pila enviada por el profesor por medio de whatsApp
+```java
 
 /**
  * Tema: PILA
@@ -16,6 +47,8 @@
  */
 
 package Pila;
+
+
 
 public class StackArrays<T> implements IStack<T> {
     private T[] elements; // Estructura interna (Array)
@@ -81,3 +114,4 @@ public class StackArrays<T> implements IStack<T> {
         System.out.println(nombres.pop());
     }
 }
+```
