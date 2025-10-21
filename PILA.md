@@ -108,3 +108,6 @@ public class StackArrays<T> implements IStack<T> {
     }
 }
 ```
+### Evidencia de la función del código
+<img width="200" height="200" alt="image" src="https://github.com/user-attachments/assets/d7d87bd7-59f6-4345-9c3e-54a50803732b" />
+
