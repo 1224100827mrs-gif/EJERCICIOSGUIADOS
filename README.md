@@ -46,6 +46,9 @@
 | 🧩 Actividad | 📎 Evidencia |
 |--------------|--------------|
 | **Act. 1:** Colas en *Nearpod* | [📄 Ver PDF](https://github.com/1224100827mrs-gif/EJERCICIOSGUIADOS/blob/main/Actividad1_Colas_NeardPot_MARISOL%20RINCON%20SOLIS.pdf) |
+| **Act. 1.1:** Código de la actividad de colas en java| [📘 Ver Markdown](https://github.com/1224100827mrs-gif/EJERCICIOSGUIADOS/blob/main/COLAS.md) |
+| **Act. 1.1.1:** Video de funcionalidad del código de colas | [🎥 Ver Video](https://github.com/1224100827mrs-gif/EJERCICIOSGUIADOS/blob/main/Unidad2%20-%20Apache%20NetBeans%20IDE%2027%202025-10-24%2018-17-07.mp4) |
+
 
 ---
 
