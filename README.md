@@ -52,6 +52,28 @@
 
 ---
 
+## Ordenamiento 
+
+## Actividad 1  Ordenamiento Burbuja
+#### Esta actividad fue muy dinamica se realizo el dia Martes  28 de Octubre.
+#### Trabajamos en conjunto todo el grupo
+
+
+## Actividad 2 
+Eviencia 
+![Imagen de WhatsApp 2025-10-31 a las 15 09 02_2ce05b8f](https://github.com/user-attachments/assets/c85b6176-a2d8-446e-ab9a-68dde24834f2)
+
+![Imagen de WhatsApp 2025-10-31 a las 15 09 03_d8c87c14](https://github.com/user-attachments/assets/bff6bb7c-3eed-44b1-9716-419632f26d15)
+
+![Imagen de WhatsApp 2025-10-31 a las 15 09 03_3c15336a](https://github.com/user-attachments/assets/c689badb-f1fe-46fe-aa0b-4a71e400bd16)
+
+## Ejercicios Guiados ordenamiento para juntar deseos 
+### Trabaje en conjunto con mi compañeo Miguel Angel
+![Imagen de WhatsApp 2025-10-31 a las 23 00 21_12f4121a](https://github.com/user-attachments/assets/3d3c4712-4511-4d23-98c2-027d49d90fce)
+
+
+
+
 ## 👩‍💻 Autor
 
 **Marisol Rincón Solís**  
