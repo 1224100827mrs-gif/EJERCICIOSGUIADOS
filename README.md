@@ -57,6 +57,7 @@
 ## Actividad 1  Ordenamiento Burbuja
 #### Esta actividad fue muy dinamica se realizo el dia Martes  28 de Octubre.
 #### Trabajamos en conjunto todo el grupo
+https://github.com/1224100827mrs-gif/EJERCICIOSGUIADOS/blob/main/OrdenamientoBurbuja.md
 
 
 ## Actividad 2 
@@ -70,6 +71,10 @@ Eviencia
 ## Ejercicios Guiados ordenamiento para juntar deseos 
 ### Trabaje en conjunto con mi compañeo Miguel Angel
 ![Imagen de WhatsApp 2025-10-31 a las 23 00 21_12f4121a](https://github.com/user-attachments/assets/3d3c4712-4511-4d23-98c2-027d49d90fce)
+
+![Imagen de WhatsApp 2025-10-31 a las 23 00 21_656488d4](https://github.com/user-attachments/assets/d2cad46a-0700-4d2b-b0f3-45be8f3983cc)
+
+
 
 
 
